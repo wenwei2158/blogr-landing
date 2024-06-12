@@ -92,5 +92,3 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 =======
-# blogr-landing
->>>>>>> 4b7f61e91c0ec53573d2bfa638a2b743dc5a22d5
