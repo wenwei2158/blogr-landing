@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Blogr landing page
 
 ![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)
@@ -90,3 +91,6 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# blogr-landing
+>>>>>>> 4b7f61e91c0ec53573d2bfa638a2b743dc5a22d5
