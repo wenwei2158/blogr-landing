@@ -1,3 +1,12 @@
+/* @media (max-width: 2400px) {
+  .header {
+    background-size: 100% auto;
+    background-position-x: 10%;
+  }
+  .nav-righttop {
+    margin-right: 5rem;
+  }
+} */
 @media (max-width: 2400px) {
   .header {
     background-size: 100% auto;
@@ -6,19 +15,42 @@
   .nav-righttop {
     margin-right: 5rem;
   }
-}
-@media (max-width: 1200px) {
-  .header {
-    background-size: 100% auto;
-    background-position-x: 10%;
-  }
-  .nav-righttop {
-    margin-right: 5rem;
-  }
   .features-section {
-    background-size: 50% !important;
+    background-image: url(/images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 38% !important;
     background-position-x: 110%;
     background-position-y: 50%;
+    margin-bottom: 8%;
+  }
+  .phone-images {
+    margin-top: -6rem;
+    margin-left: -2rem;
+  }
+  .infrastructure-section {
+    background: url(/images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    padding: 2em 5em 0em 25em;
+    margin-bottom: 8%;
+    background-color: rgb(31, 36, 56);
+    padding: 5%;
+    background-position-y: -16rem;
+    background-position-x: -8rem;
+    background-size: 50%;
+    color: white;
+    border-radius: 0 80px 0 80px;
+  }
+  .infrastructure-section .content {
+    padding: 0em 6rem 0rem 25rem;
+  }
+  .simplicity-section {
+    background-image: url(/images/illustration-laptop-desktop.svg);
+    background-size: 40% !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 12%;
+    margin-bottom: 8%;
+    background-position-x: -20%;
   }
 }
 @media (max-width: 992px) {
@@ -74,6 +106,10 @@
     text-align: center;
   }
   .features-section {
+    background-image: url(/images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 5%;
     background-size: 40% !important;
     background-position-x: 110%;
     background-position-y: 50%;
@@ -93,9 +129,35 @@
     margin-right: 2rem;
   }
   .features-section {
+    background-image: url("/images/illustration-editor-mobile.svg");
     background-size: 40% !important;
-    /* background-position-x: 110%;
-    background-position-y: 50%; */
+    background-position-x: center;
+    background-position-y: 20%;
+  }
+  .features-section .context {
+    margin-top: 15rem;
+    text-align: center;
+  }
+  .infrastructure-section {
+    background-position-y: -6rem;
+    background-position-x: 11rem;
+    margin-top: 8rem;
+  }
+  .infrastructure-section .content {
+    padding: 12em 5rem 0rem;
+    text-align: center;
+  }
+  .phone-images {
+    margin: -12rem 0 0 4rem;
+    height: 25rem;
+  }
+  .simplicity-section {
+    background-size: 60% !important;
+    background-position-x: center;
+  }
+  .simplicity-section .context {
+    margin-top: 24rem;
+    text-align: center;
   }
 }
 @media (max-width: 576px) {
@@ -188,34 +250,10 @@
 .hero-section {
   padding: 3% 0;
 }
-.features-section {
-  background-image: url(/images/illustration-editor-desktop.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  /* background-position: relative; */
-  background-position-x: 110%;
-  background-position-y: 50%;
-  margin-bottom: 5%;
-}
 
-.infrastructure-section {
-  background: url(/images/bg-pattern-circles.svg);
-  background-repeat: no-repeat;
-  margin-bottom: 5%;
-  background-color: rgb(31, 36, 56);
-  padding: 5%;
-  background-position-y: -16rem;
-  background-position-x: -8rem;
-  background-size: 50%;
-  color: white;
-  border-radius: 0 80px 0 80px;
-}
 .infrastructure-section .container {
   position: relative;
   display: flex;
-}
-.infrastructure-section .content {
-  padding: 2em 5em 0em 25em;
 }
 .infrastructure-section p {
   line-height: 1.6;
@@ -224,15 +262,6 @@
   position: absolute;
   display: flex;
   height: 25rem;
-  margin-top: -6rem;
-  margin-left: -2rem;
-}
-.simplicity-section {
-  background-image: url(/images/illustration-laptop-desktop.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-bottom: 5%;
-  background-position-x: -20%;
 }
 .footer {
   background-color: 070720;
