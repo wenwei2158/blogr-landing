@@ -17,8 +17,6 @@
   }
   .features-section {
     margin-bottom: -15rem;
-    display: flex;
-    flex-direction: column;
   }
   .features-section img {
     width: 430px;
@@ -46,14 +44,14 @@
   .infrastructure-section .content {
     padding: 0em 6rem 0rem 25rem;
   }
-  .simplicity-section {
-    background-image: url(/images/illustration-laptop-desktop.svg);
-    background-size: 40% !important;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-bottom: 12%;
-    margin-bottom: 8%;
-    background-position-x: -20%;
+  .simplicity-section .container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+  .simplicity-section img {
+    width: 430px;
+    position: relative;
   }
 }
 @media (max-width: 991px) {
@@ -133,8 +131,8 @@
   .navbar-toggler {
     margin-right: 2rem;
   }
-  .features-section {
-    margin-bottom: -40%;
+  .features-section .container {
+    margin-bottom: -18rem;
   }
   .features-section .context {
     margin-top: 30rem;
@@ -167,6 +165,20 @@
   .simplicity-section .context {
     margin-top: 24rem;
     text-align: center;
+  }
+  .simplicity-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  .simplicity-section .container .row {
+    margin-top: -20rem !important;
+  }
+
+  .simplicity-section img {
+    width: 430px;
+    position: relative;
   }
 }
 @media (max-width: 576px) {
@@ -281,4 +293,15 @@
 .footer a {
   color: white;
   text-decoration: none;
+}
+.footer h2 {
+  padding-bottom: 2rem;
+}
+.footer h5 {
+  color: #a19b9b;
+}
+.footer h5:hover {
+  font-size: 28px;
+  color: antiquewhite;
+  width: auto;
 }
