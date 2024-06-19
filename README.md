@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Frontend Mentor - Blogr landing page
 
@@ -64,5 +64,3 @@ There are multiple places you can share your solution:
 # **Have fun building!** 🚀
 
 # blogr-landing
-
-> > > > > > > 4b7f61e91c0ec53573d2bfa638a2b743dc5a22d5
